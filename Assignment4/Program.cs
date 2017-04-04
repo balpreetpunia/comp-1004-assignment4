@@ -11,6 +11,10 @@ namespace Assignment4
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
+
+        public static Modules.product products = new Modules.product();
+
         [STAThread]
         static void Main()
         {

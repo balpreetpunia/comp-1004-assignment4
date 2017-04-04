@@ -17,8 +17,8 @@ namespace Assignment4.Modules
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<product>()
-                .Property(e => e.cost)
-                .HasPrecision(19, 4);
+                .Property(e => e.cost);
+                
         }
     }
 }

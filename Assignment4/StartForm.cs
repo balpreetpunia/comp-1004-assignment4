@@ -26,7 +26,12 @@ namespace Assignment4
         {
             SelectForm selectForm = new SelectForm();
             selectForm.ShowDialog();
-            this.Hide();
+            this.Close();
+        }
+
+        private void ExitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

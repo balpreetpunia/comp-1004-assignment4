@@ -55,7 +55,7 @@ namespace Assignment4
         {
             Program.products.Audio_type = ProductsDataGridView.SelectedRows[0].Cells[21].Value.ToString();
             Program.products.condition = ProductsDataGridView.SelectedRows[0].Cells[14].Value.ToString();
-            Program.products.cost = Convert.ToDecimal(ProductsDataGridView.SelectedRows[0].Cells[1].Value);
+            Program.products.cost = Convert.ToDouble(ProductsDataGridView.SelectedRows[0].Cells[1].Value);
             Program.products.CPU_brand = ProductsDataGridView.SelectedRows[0].Cells[10].Value.ToString();
             Program.products.CPU_Class = ProductsDataGridView.SelectedRows[0].Cells[9].Value.ToString();
             Program.products.CPU_number = ProductsDataGridView.SelectedRows[0].Cells[13].Value.ToString();

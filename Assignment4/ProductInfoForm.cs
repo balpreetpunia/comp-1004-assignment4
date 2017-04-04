@@ -42,5 +42,21 @@ namespace Assignment4
             WebCamTextBox.Text = Program.products.webcam;
 
         }
+
+       
+        private void SelectAnotherButton_Click(object sender, EventArgs e)
+        {
+            StartForm startForm = new StartForm();
+            startForm.ShowDialog();
+            this.Hide();
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            
+            OrderForm orderForm = new OrderForm();
+            orderForm.ShowDialog();
+            this.Close();
+        }
     }
 }

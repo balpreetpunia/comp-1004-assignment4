@@ -443,6 +443,7 @@
             // 
             this.ModelTextBox.Location = new System.Drawing.Point(244, 54);
             this.ModelTextBox.Name = "ModelTextBox";
+            this.ModelTextBox.ReadOnly = true;
             this.ModelTextBox.Size = new System.Drawing.Size(233, 20);
             this.ModelTextBox.TabIndex = 25;
             // 
@@ -450,6 +451,7 @@
             // 
             this.OSTextBox.Location = new System.Drawing.Point(244, 23);
             this.OSTextBox.Name = "OSTextBox";
+            this.OSTextBox.ReadOnly = true;
             this.OSTextBox.Size = new System.Drawing.Size(233, 20);
             this.OSTextBox.TabIndex = 24;
             // 
@@ -457,6 +459,7 @@
             // 
             this.ManufacturerTextBox.Location = new System.Drawing.Point(78, 52);
             this.ManufacturerTextBox.Name = "ManufacturerTextBox";
+            this.ManufacturerTextBox.ReadOnly = true;
             this.ManufacturerTextBox.Size = new System.Drawing.Size(100, 20);
             this.ManufacturerTextBox.TabIndex = 23;
             // 
@@ -464,6 +467,7 @@
             // 
             this.PlatformTextBox.Location = new System.Drawing.Point(78, 20);
             this.PlatformTextBox.Name = "PlatformTextBox";
+            this.PlatformTextBox.ReadOnly = true;
             this.PlatformTextBox.Size = new System.Drawing.Size(100, 20);
             this.PlatformTextBox.TabIndex = 22;
             // 
@@ -498,6 +502,7 @@
             // 
             this.WebCamTextBox.Location = new System.Drawing.Point(447, 95);
             this.WebCamTextBox.Name = "WebCamTextBox";
+            this.WebCamTextBox.ReadOnly = true;
             this.WebCamTextBox.Size = new System.Drawing.Size(100, 20);
             this.WebCamTextBox.TabIndex = 34;
             // 
@@ -505,6 +510,7 @@
             // 
             this.CpuSpeedTextBox.Location = new System.Drawing.Point(266, 95);
             this.CpuSpeedTextBox.Name = "CpuSpeedTextBox";
+            this.CpuSpeedTextBox.ReadOnly = true;
             this.CpuSpeedTextBox.Size = new System.Drawing.Size(100, 20);
             this.CpuSpeedTextBox.TabIndex = 33;
             // 
@@ -512,6 +518,7 @@
             // 
             this.CpuTypeTextBox.Location = new System.Drawing.Point(82, 95);
             this.CpuTypeTextBox.Name = "CpuTypeTextBox";
+            this.CpuTypeTextBox.ReadOnly = true;
             this.CpuTypeTextBox.Size = new System.Drawing.Size(100, 20);
             this.CpuTypeTextBox.TabIndex = 32;
             // 
@@ -519,6 +526,7 @@
             // 
             this.GpuTypeTextBox.Location = new System.Drawing.Point(447, 57);
             this.GpuTypeTextBox.Name = "GpuTypeTextBox";
+            this.GpuTypeTextBox.ReadOnly = true;
             this.GpuTypeTextBox.Size = new System.Drawing.Size(100, 20);
             this.GpuTypeTextBox.TabIndex = 31;
             // 
@@ -526,6 +534,7 @@
             // 
             this.CpuNumberTextBox.Location = new System.Drawing.Point(266, 53);
             this.CpuNumberTextBox.Name = "CpuNumberTextBox";
+            this.CpuNumberTextBox.ReadOnly = true;
             this.CpuNumberTextBox.Size = new System.Drawing.Size(100, 20);
             this.CpuNumberTextBox.TabIndex = 30;
             // 
@@ -533,6 +542,7 @@
             // 
             this.BrandTextBox.Location = new System.Drawing.Point(82, 60);
             this.BrandTextBox.Name = "BrandTextBox";
+            this.BrandTextBox.ReadOnly = true;
             this.BrandTextBox.Size = new System.Drawing.Size(100, 20);
             this.BrandTextBox.TabIndex = 29;
             // 
@@ -540,6 +550,7 @@
             // 
             this.HddTextBox.Location = new System.Drawing.Point(447, 18);
             this.HddTextBox.Name = "HddTextBox";
+            this.HddTextBox.ReadOnly = true;
             this.HddTextBox.Size = new System.Drawing.Size(100, 20);
             this.HddTextBox.TabIndex = 28;
             // 
@@ -547,6 +558,7 @@
             // 
             this.LcdTextBox.Location = new System.Drawing.Point(266, 18);
             this.LcdTextBox.Name = "LcdTextBox";
+            this.LcdTextBox.ReadOnly = true;
             this.LcdTextBox.Size = new System.Drawing.Size(100, 20);
             this.LcdTextBox.TabIndex = 27;
             // 
@@ -554,6 +566,7 @@
             // 
             this.MemoryTextBox.Location = new System.Drawing.Point(82, 19);
             this.MemoryTextBox.Name = "MemoryTextBox";
+            this.MemoryTextBox.ReadOnly = true;
             this.MemoryTextBox.Size = new System.Drawing.Size(100, 20);
             this.MemoryTextBox.TabIndex = 26;
             // 
@@ -561,6 +574,7 @@
             // 
             this.ProductTextBox.Location = new System.Drawing.Point(88, 41);
             this.ProductTextBox.Name = "ProductTextBox";
+            this.ProductTextBox.ReadOnly = true;
             this.ProductTextBox.Size = new System.Drawing.Size(100, 20);
             this.ProductTextBox.TabIndex = 19;
             // 
@@ -568,6 +582,7 @@
             // 
             this.ConditionTextBox.Location = new System.Drawing.Point(275, 41);
             this.ConditionTextBox.Name = "ConditionTextBox";
+            this.ConditionTextBox.ReadOnly = true;
             this.ConditionTextBox.Size = new System.Drawing.Size(100, 20);
             this.ConditionTextBox.TabIndex = 20;
             // 
@@ -575,6 +590,7 @@
             // 
             this.CostTextBox.Location = new System.Drawing.Point(456, 41);
             this.CostTextBox.Name = "CostTextBox";
+            this.CostTextBox.ReadOnly = true;
             this.CostTextBox.Size = new System.Drawing.Size(100, 20);
             this.CostTextBox.TabIndex = 21;
             // 
@@ -595,6 +611,7 @@
             this.SelectAnotherButton.TabIndex = 23;
             this.SelectAnotherButton.Text = "Select Another Product";
             this.SelectAnotherButton.UseVisualStyleBackColor = true;
+            this.SelectAnotherButton.Click += new System.EventHandler(this.SelectAnotherButton_Click);
             // 
             // CancelButton
             // 
@@ -613,6 +630,7 @@
             this.NextButton.TabIndex = 25;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
             // 
             // ProductInfoForm
             // 

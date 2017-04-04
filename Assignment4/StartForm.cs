@@ -7,7 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// App Name - Movie Bonanza
+/// Author - Balpreet Punia
+/// Student Id - 200335082
+/// Creation Date - 2017-03-05
+/// Description - This app lets user place an order and buy a computer.
+/// </summary>
 namespace Assignment4
 {
     public partial class StartForm : Form

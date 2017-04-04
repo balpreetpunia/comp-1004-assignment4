@@ -8,6 +8,13 @@ namespace Assignment4.Modules
 
     public partial class product
     {
+        /// <summary>
+        /// App Name - Movie Bonanza
+        /// Author - Balpreet Punia
+        /// Student Id - 200335082
+        /// Creation Date - 2017-03-05
+        /// Description - This app lets user place an order and buy a computer.
+        /// </summary>
         public short productID { get; set; }
 
         [Column(TypeName = "money")]

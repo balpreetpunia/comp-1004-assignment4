@@ -8,7 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Assignment4
+namespace Assignment4/// <summary>
+/// App Name - Movie Bonanza
+/// Author - Balpreet Punia
+/// Student Id - 200335082
+/// Creation Date - 2017-03-05
+/// Description - This app lets user place an order and buy a computer.
+/// </summary>
 {
     public partial class ProductInfoForm : Form
     {
@@ -67,6 +73,11 @@ namespace Assignment4
         private void CancelButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            SelectAnotherButton_Click(sender, e);
         }
     }
 }

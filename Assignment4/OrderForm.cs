@@ -10,6 +10,13 @@ using System.Windows.Forms;
 
 namespace Assignment4
 {
+    /// <summary>
+    /// App Name - Movie Bonanza
+    /// Author - Balpreet Punia
+    /// Student Id - 200335082
+    /// Creation Date - 2017-03-05
+    /// Description - This app lets user place an order and buy a computer.
+    /// </summary>
     public partial class OrderForm : Form
     {
         public OrderForm()
@@ -55,6 +62,12 @@ namespace Assignment4
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
             BackButton_Click(sender, e);
+        }
+
+        private void FinishButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Your order has been placed and will be delivered to you in 7-10 business days. Thank You.");
+            Application.Exit();
         }
     }
 }

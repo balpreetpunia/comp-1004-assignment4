@@ -58,5 +58,15 @@ namespace Assignment4
             orderForm.ShowDialog();
             this.Close();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CancelButton_Click(sender, e);
+        }
+
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

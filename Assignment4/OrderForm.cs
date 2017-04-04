@@ -40,5 +40,21 @@ namespace Assignment4
         {
             Application.Exit();
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AboutBox aboutBox = new AboutBox();
+            aboutBox.ShowDialog();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CancelButton_Click(sender, e);
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            BackButton_Click(sender, e);
+        }
     }
 }
